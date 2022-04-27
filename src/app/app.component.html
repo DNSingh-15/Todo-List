@@ -1,0 +1,13 @@
+<h1> {{ title }} </h1>
+
+<div class="container">
+  <input type="text" placeholder="Enter task name" #task />
+  <br> <br>
+  <button (click)="addTask(task.value)"> Add Task </button>
+
+  <!-- for display the list -->
+  <ul *ngFor="let item of list">
+    <li> {{item.name}} <button (click)="removeTask(item.id)">Remove</button></li>
+  </ul>
+</div>
+<router-outlet></router-outlet>

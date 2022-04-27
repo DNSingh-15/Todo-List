@@ -1,0 +1,13 @@
+h1{
+    color: rgb(17, 72, 72); 
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container{
+    background-color: rgb(76, 209, 209);
+    width: 50%;
+    text-align: center;
+    margin-left: 350PX;
+    margin-top: 40px;
+}
